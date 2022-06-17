@@ -28,7 +28,6 @@ func ExampleNewEncrypter() {
 	mode.CryptBlocks(ciphertext, plaintext)
 
 	fmt.Printf("%x\n", ciphertext)
-
 	// Output:
 	// 188dc8b928ae0a13b0e9ab01127fd341
 }
@@ -53,7 +52,6 @@ func ExampleNewDecrypter() {
 	mode.CryptBlocks(plaintext, ciphertext)
 
 	fmt.Printf("%s\n", plaintext)
-
 	// Output:
 	// exampleplaintext
 }
